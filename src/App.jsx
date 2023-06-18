@@ -28,7 +28,6 @@ function Meme() {
       .then((data) => setImg(data.data.memes));
   }, []);
 
-  console.log(allImg);
 
   function getMemeImage() {
     const memesArray = allImg;
